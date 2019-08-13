@@ -30,7 +30,7 @@ class User extends Resource
      * @var array
      */
     public static $search = [
-        'id'
+        'id', 'name', 'email',
     ];
 
     /**
@@ -45,8 +45,13 @@ class User extends Resource
             ID::make()->sortable(),
 
             Gravatar::make(),
+<<<<<<< Updated upstream
 
             Text::make('Johnny', 'name')
+=======
+            //Notes
+            Text::make('Fucko', 'name')
+>>>>>>> Stashed changes
                 ->sortable()
                 ->rules('required', 'max:255'),
 
