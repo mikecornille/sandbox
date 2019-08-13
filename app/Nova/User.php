@@ -45,13 +45,9 @@ class User extends Resource
             ID::make()->sortable(),
 
             Gravatar::make(),
-<<<<<<< Updated upstream
 
-            Text::make('Johnny', 'name')
-=======
-            //Notes
-            Text::make('Fucko', 'name')
->>>>>>> Stashed changes
+
+            Text::make('Name')
                 ->sortable()
                 ->rules('required', 'max:255'),
 
