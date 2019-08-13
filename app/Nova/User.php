@@ -47,7 +47,7 @@ class User extends Resource
             Gravatar::make(),
 
 
-            Text::make('Name')
+            Text::make('Matt','Name')
                 ->sortable()
                 ->rules('required', 'max:255'),
 
