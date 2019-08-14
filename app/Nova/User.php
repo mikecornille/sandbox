@@ -48,7 +48,7 @@ class User extends Resource
 
 
 
-            Text::make('Mike','name')
+            Text::make('Mike!','name')
                 ->sortable()
                 ->rules('required', 'max:255'),
 
